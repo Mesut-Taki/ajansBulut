@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../assets/images/logo-blue.png";
 
 const Footer = () => {
   return (
@@ -10,11 +11,7 @@ const Footer = () => {
             <div className="col-md-4">
               <div className="widget__footer">
                 <figure>
-                  <img
-                    src="images/logo-blue.png"
-                    alt=""
-                    className="logo-footer"
-                  />
+                  <img src={logo} alt="" className="logo-footer" />
                 </figure>
                 <p>
                   Rethouse Real Estate is a premium Property template based on

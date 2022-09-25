@@ -1,5 +1,7 @@
 import React from "react";
 import BlogsItem from "./BlogsItem";
+import image500x400 from "../../assets/images/placeholder/500x400.jpg";
+import image80x80 from "../../assets/images/placeholder/80x80.jpg";
 
 const Blogs = () => {
   return (
@@ -20,7 +22,8 @@ const Blogs = () => {
         <div class="row">
           <div class="col-md-4">
             <BlogsItem
-              image="../../assets/images/500x400.jpg"
+              image={image500x400}
+              image2={image80x80}
               title="Best Interior Oppertunity"
               description=" Real estate festival is one of the famous feval for explain to
               you how all this mistaolt deand praising pain wasnad I will
@@ -34,8 +37,8 @@ const Blogs = () => {
           <div class="col-md-4">
             {/* <!-- BLOG  --> */}
             <BlogsItem
-              image="../../assets/images/500x400.jpg"
-              image2=""
+              image={image500x400}
+              image2={image80x80}
               title="Tips & Trick buy real estate"
               description=" Real estate festival is one of the famous feval for explain to
               you how all this mistaolt deand praising pain wasnad I will
@@ -48,8 +51,8 @@ const Blogs = () => {
           <div class="col-md-4">
             {/* <!-- BLOG  --> */}
             <BlogsItem
-              image="../../assets/images/500x400.jpg"
-              image2="../../assets/images/80x80.jpg"
+              image={image500x400}
+              image2={image80x80}
               title="Our Must Popular Deluxe House"
               description=" Real estate festival is one of the famous feval for explain to
               you how all this mistaolt deand praising pain wasnad I will

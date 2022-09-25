@@ -349,6 +349,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
+
           {/* <!-- Search content bar.// -->
             <!-- navbar-collapse.// --> */}
         </div>

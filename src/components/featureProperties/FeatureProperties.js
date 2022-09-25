@@ -1,5 +1,7 @@
 import React from "react";
 import FeaturePropertyItem from "./FeaturePropertyItem";
+import image600x400 from "../../assets/images/placeholder/600x400.jpg";
+import image80x80 from "../../assets/images/placeholder/80x80.jpg";
 
 const FeatureProperties = () => {
   return (
@@ -22,42 +24,42 @@ const FeatureProperties = () => {
           <div className="col-lg-12">
             <div className="featured__property-carousel owl-carousel owl-theme">
               <FeaturePropertyItem
-                image="../../assets/images/600x400.jpg"
+                image={image600x400}
                 description="vila in coral gables"
-                image2="../../assets/images/80x80.jpg"
+                image2={image80x80}
               />
 
               <FeaturePropertyItem
-                image="../../assets/images/600x400.jpg"
+                image={image600x400}
                 description="Ample Apartment At Last Floor"
-                image2="../../assets/images/80x80.jpg"
+                image2={image80x80}
               />
 
               <FeaturePropertyItem
-                image="../../assets/images/600x400.jpg"
+                image={image600x400}
                 description="  Contemporary Apartment"
-                image2="../../assets/images/80x80.jpg"
+                image2={image80x80}
               />
               <FeaturePropertyItem
-                image="../../assets/images/600x400.jpg"
+                image={image600x400}
                 description="     Family Home For Sale"
-                image2="../../assets/images/80x80.jpg"
+                image2={image80x80}
               />
 
               <FeaturePropertyItem
-                image="../../assets/images/600x400.jpg"
+                image={image600x400}
                 description=" 184 Lexington Avenue"
-                image2="../../assets/images/80x80.jpg"
+                image2={image80x80}
               />
               <FeaturePropertyItem
-                image="../../assets/images/600x400.jpg"
+                image={image600x400}
                 description="  Luxury Villa With Pool"
-                image2="../../assets/images/80x80.jpg"
+                image2={image80x80}
               />
               <FeaturePropertyItem
-                image="../../assets/images/600x400.jpg"
+                image={image600x400}
                 description="      Family Home For Sale"
-                image2="../../assets/images/80x80.jpg"
+                image2={image80x80}
               />
             </div>
           </div>

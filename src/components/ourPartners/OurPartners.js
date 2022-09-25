@@ -1,4 +1,9 @@
 import React from "react";
+import logo6 from "../../assets/images/partner-logo6.png";
+import logo7 from "../../assets/images/partner-logo7.png";
+import logo8 from "../../assets/images/partner-logo8.png";
+import logo9 from "../../assets/images/partner-logo9.png";
+import logo5 from "../../assets/images/partner-logo5.png";
 
 const OurPartners = () => {
   return (
@@ -20,39 +25,19 @@ const OurPartners = () => {
             <div className="projects__partner-logo">
               <ul className="list-inline mb-0">
                 <li className="list-inline-item">
-                  <img
-                    src="images/partner-logo6.png"
-                    alt=""
-                    className="img-fluid"
-                  />
+                  <img src={logo6} alt="" className="img-fluid" />
                 </li>
                 <li className="list-inline-item">
-                  <img
-                    src="images/partner-logo7.png"
-                    alt=""
-                    className="img-fluid"
-                  />
+                  <img src={logo7} alt="" className="img-fluid" />
                 </li>
                 <li className="list-inline-item">
-                  <img
-                    src="images/partner-logo8.png"
-                    alt=""
-                    className="img-fluid"
-                  />
+                  <img src={logo8} alt="" className="img-fluid" />
                 </li>
                 <li className="list-inline-item">
-                  <img
-                    src="images/partner-logo1.png"
-                    alt=""
-                    className="img-fluid"
-                  />
+                  <img src={logo9} alt="" className="img-fluid" />
                 </li>
                 <li className="list-inline-item">
-                  <img
-                    src="images/partner-logo5.png"
-                    alt=""
-                    className="img-fluid"
-                  />
+                  <img src={logo5} alt="" className="img-fluid" />
                 </li>
               </ul>
             </div>

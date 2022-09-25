@@ -1,5 +1,4 @@
 import React from "react";
-import logoStiky from "../../assets/images/logo-blue-stiky.png";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 const Header = () => {

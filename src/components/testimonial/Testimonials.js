@@ -1,4 +1,6 @@
 import React from "react";
+import TestimonialsItem from "./TestimonialsItem";
+import image80x80 from "../../assets/images/placeholder/80x80.jpg";
 
 const Testimonials = () => {
   return (
@@ -18,104 +20,54 @@ const Testimonials = () => {
         </div>
         <div className="testimonial owl-carousel owl-theme">
           {/* <!-- TESTIMONIAL --> */}
-          <div className="item testimonial__block">
-            <div className="testimonial__block-card bg-reviews">
-              <p>
-                Thank you walls property help me, choice dream home We were
-                impressed with the build quality, Plus they are competitively
-                priced.
-              </p>
-            </div>
-            <div className="testimonial__block-users">
-              <div className="testimonial__block-users-img">
-                <img src="images/80x80.jpg" alt="" className="img-fluid" />
-              </div>
-              <div className="testimonial__block-users-name">
-                jhon doe <br />
-                <span>owner, digital agency</span>
-              </div>
-            </div>
-          </div>
+          <TestimonialsItem
+            description="Thank you walls property help me, choice dream home We were
+          impressed with the build quality, Plus they are competitively
+          priced."
+            name=" jhon doe"
+            jobs="owner, digital agency"
+            image={image80x80}
+          />
+
           {/* <!-- END TESTIMONIAL -->
                 <!-- TESTIMONIAL --> */}
-          <div className="item testimonial__block">
-            <div className="testimonial__block-card bg-reviews">
-              <p>
-                Thank you walls property help me, choice dream home We were
-                impressed with the build quality, Plus they are competitively
-                priced.
-              </p>
-            </div>
-            <div className="testimonial__block-users">
-              <div className="testimonial__block-users-img">
-                <img src="images/80x80.jpg" alt="" className="img-fluid" />
-              </div>
-              <div className="testimonial__block-users-name">
-                jhon doe <br />
-                <span>owner, digital agency</span>
-              </div>
-            </div>
-          </div>
+
+          <TestimonialsItem
+            description="Thank you walls property help me, choice dream home We were
+          impressed with the build quality, Plus they are competitively
+          priced."
+            name=" jhon doe"
+            jobs="owner, digital agency"
+            image={image80x80}
+          />
+          <TestimonialsItem
+            description="Thank you walls property help me, choice dream home We were
+          impressed with the build quality, Plus they are competitively
+          priced."
+            name=" jhon doe"
+            jobs="owner, digital agency"
+            image={image80x80}
+          />
           {/* <!-- END TESTIMONIAL -->
                 <!-- TESTIMONIAL --> */}
-          <div className="item testimonial__block">
-            <div className="testimonial__block-card bg-reviews">
-              <p>
-                Thank you walls property help me, choice dream home We were
-                impressed with the build quality, Plus they are competitively
-                priced.
-              </p>
-            </div>
-            <div className="testimonial__block-users">
-              <div className="testimonial__block-users-img">
-                <img src="images/80x80.jpg" alt="" className="img-fluid" />
-              </div>
-              <div className="testimonial__block-users-name">
-                jhon doe <br />
-                <span>owner, digital agency</span>
-              </div>
-            </div>
-          </div>
+          <TestimonialsItem
+            description="Thank you walls property help me, choice dream home We were
+          impressed with the build quality, Plus they are competitively
+          priced."
+            name=" jhon doe"
+            jobs="owner, digital agency"
+            image={image80x80}
+          />
           {/* <!-- END TESTIMONIAL -->
                 <!-- TESTIMONIAL --> */}
-          <div className="item testimonial__block">
-            <div className="testimonial__block-card bg-reviews">
-              <p>
-                Thank you walls property help me, choice dream home We were
-                impressed with the build quality, Plus they are competitively
-                priced.
-              </p>
-            </div>
-            <div className="testimonial__block-users">
-              <div className="testimonial__block-users-img">
-                <img src="images/80x80.jpg" alt="" className="img-fluid" />
-              </div>
-              <div className="testimonial__block-users-name">
-                jhon doe <br />
-                <span>owner, digital agency</span>
-              </div>
-            </div>
-          </div>
-          {/* <!-- END TESTIMONIAL -->
-                <!-- TESTIMONIAL --> */}
-          <div className="item testimonial__block">
-            <div className="testimonial__block-card bg-reviews">
-              <p>
-                Thank you walls property help me, choice dream home We were
-                impressed with the build quality, Plus they are competitively
-                priced.
-              </p>
-            </div>
-            <div className="testimonial__block-users">
-              <div className="testimonial__block-users-img">
-                <img src="images/80x80.jpg" alt="" className="img-fluid" />
-              </div>
-              <div className="testimonial__block-users-name">
-                jhon doe <br />
-                <span>owner, digital agency</span>
-              </div>
-            </div>
-          </div>
+          <TestimonialsItem
+            description="Thank you walls property help me, choice dream home We were
+          impressed with the build quality, Plus they are competitively
+          priced."
+            name=" jhon doe"
+            jobs="owner, digital agency"
+            image={image80x80}
+          />
           {/* <!-- END TESTIMONIAL --> */}
         </div>
       </div>

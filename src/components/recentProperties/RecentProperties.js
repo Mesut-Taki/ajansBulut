@@ -1,5 +1,7 @@
 import React from "react";
 import RecentPropertiesItem from "./RecentPropertiesItem";
+import image600x400 from "../../assets/images/placeholder/600x400.jpg";
+import image80x80 from "../../assets/images/placeholder/80x80.jpg";
 
 const RecentProperties = () => {
   return (
@@ -17,53 +19,53 @@ const RecentProperties = () => {
         </div>
         <div className="featured__property-carousel owl-carousel owl-theme">
           <RecentPropertiesItem
-            image="../../assets/images/600x400.jpg"
+            image={image600x400}
             description=" vila in coral gables"
-            image2="../../assets/images/80x80.jpg"
+            image2={image80x80}
             name=" tom wilson"
             total="$350.000"
           />
 
           <RecentPropertiesItem
-            image="../../assets/images/600x400.jpg"
+            image={image600x400}
             description=" vila in coral gables"
-            image2="../../assets/images/80x80.jpg"
+            image2={image80x80}
             name=" tom wilson"
             total="$350.000"
           />
 
           <RecentPropertiesItem
-            image="../../assets/images/600x400.jpg"
+            image={image600x400}
             description=" vila in coral gables"
-            image2="../../assets/images/80x80.jpg"
+            image2={image80x80}
+            name=" tom wilson"
+            total="$350.000"
+          />
+          <RecentPropertiesItem
+            image={image600x400}
+            description=" vila in coral gables"
+            image2={image80x80}
+            name=" tom wilson"
+            total="$350.000"
+          />
+          <RecentPropertiesItem
+            image={image600x400}
+            description=" vila in coral gables"
+            image2={image80x80}
+            name=" tom wilson"
+            total="$350.000"
+          />
+          <RecentPropertiesItem
+            image={image600x400}
+            description=" vila in coral gables"
+            image2={image80x80}
             name=" tom wilson"
             total="$350.000"
           />
           <RecentPropertiesItem
             image="../../assets/images/600x400.jpg"
             description=" vila in coral gables"
-            image2="../../assets/images/80x80.jpg"
-            name=" tom wilson"
-            total="$350.000"
-          />
-          <RecentPropertiesItem
-            image="../../assets/images/600x400.jpg"
-            description=" vila in coral gables"
-            image2="../../assets/images/80x80.jpg"
-            name=" tom wilson"
-            total="$350.000"
-          />
-          <RecentPropertiesItem
-            image="../../assets/images/600x400.jpg"
-            description=" vila in coral gables"
-            image2="../../assets/images/80x80.jpg"
-            name=" tom wilson"
-            total="$350.000"
-          />
-          <RecentPropertiesItem
-            image="../../assets/images/600x400.jpg"
-            description=" vila in coral gables"
-            image2="../../assets/images/80x80.jpg"
+            image2={image80x80}
             name=" tom wilson"
             total="$350.000"
           />
