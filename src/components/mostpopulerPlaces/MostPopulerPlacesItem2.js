@@ -1,11 +1,11 @@
 import React from "react";
 
-const MostPopulerPlacesItem = (props) => {
+const MostPopulerPlacesItem2 = (props) => {
   const { image, country, properties } = props;
   return (
     <a href="#">
       <div className="card__image-hover-style-v3">
-        <div className="card__image-hover-style-v3-thumb h-230">
+        <div className="card__image-hover-style-v3-thumb h-475">
           <img src={image} alt="" className="img-fluid w-100" />
         </div>
         <div className="overlay">
@@ -19,4 +19,4 @@ const MostPopulerPlacesItem = (props) => {
   );
 };
 
-export default MostPopulerPlacesItem;
+export default MostPopulerPlacesItem2;

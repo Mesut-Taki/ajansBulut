@@ -1,5 +1,6 @@
 import React from "react";
 import MostPopulerPlacesItem from "./MostPopulerPlacesItem";
+import MostPopulerPlacesItem2 from "./MostPopulerPlacesItem2";
 import image700x980 from "../../assets/images/placeholder/700x980.jpg";
 import image600x400 from "../../assets/images/placeholder/600x400.jpg";
 
@@ -24,7 +25,7 @@ const MostPopulerPlaces = () => {
         <div className="row">
           <div className="col-lg-5 col-xl-5 col-padd">
             {/* <!-- CARD IMAGE --> */}
-            <MostPopulerPlacesItem
+            <MostPopulerPlacesItem2
               image={image700x980}
               country="tokyo"
               properties="70 properties"
