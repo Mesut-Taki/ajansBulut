@@ -4,6 +4,7 @@ import image600x400 from "../../assets/images/placeholder/600x400.jpg";
 import image80x80 from "../../assets/images/placeholder/80x80.jpg";
 
 const RecentProperties = () => {
+  console.log("image6x4", image600x400);
   return (
     <section className="featured__property bg-light">
       <div className="container">

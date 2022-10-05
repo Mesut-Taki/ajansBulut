@@ -2,6 +2,7 @@ import React from "react";
 
 const RecentPropertiesItem = (props) => {
   const { image, image2, description, name, total } = props;
+  console.log("images: ", image, image2);
   return (
     <div className="item">
       {/* <!-- ONE --> */}
@@ -24,25 +25,25 @@ const RecentPropertiesItem = (props) => {
           <ul className="list-inline card__content">
             <li className="list-inline-item">
               <span>
-                baths <classNameName />
+                baths {/*<classNameName />*/}
                 <i className="fa fa-bath"></i> 2
               </span>
             </li>
             <li className="list-inline-item">
               <span>
-                beds <classNameName />
+                beds {/*<classNameName />*/}
                 <i className="fa fa-bed"></i> 3
               </span>
             </li>
             <li className="list-inline-item">
               <span>
-                rooms <classNameName />
+                rooms {/*<classNameName />*/}
                 <i className="fa fa-inbox"></i> 3
               </span>
             </li>
             <li className="list-inline-item">
               <span>
-                area <classNameName />
+                area {/*<classNameName />*/}
                 <i className="fa fa-map"></i> 4300 sq ft
               </span>
             </li>
@@ -55,7 +56,7 @@ const RecentPropertiesItem = (props) => {
           <ul className="list-inline my-auto">
             <li className="list-inline-item">
               <a href="#">
-                {name} <classNameName />
+                {name} {/*<classNameName />*/}
               </a>
             </li>
           </ul>

@@ -5,22 +5,22 @@ import image80x80 from "../../assets/images/placeholder/80x80.jpg";
 
 const Blogs = () => {
   return (
-    <section class="blog__home">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-lg-6 mx-auto">
-            <div class="title__head">
-              <h2 class="text-center text-capitalize">lastest news</h2>
-              <p class="text-center text-capitalize">
+    <section className="blog__home">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8 col-lg-6 mx-auto">
+            <div className="title__head">
+              <h2 className="text-center text-capitalize">lastest news</h2>
+              <p className="text-center text-capitalize">
                 find of the most popular real estate company all around
                 indonesia.{" "}
               </p>
             </div>
           </div>
-          <div class="clearfix"></div>
+          <div className="clearfix"></div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
+        <div className="row">
+          <div className="col-md-4">
             <BlogsItem
               image={image500x400}
               image2={image80x80}
@@ -34,7 +34,7 @@ const Blogs = () => {
 
             {/* <!-- END BLOG --> */}
           </div>
-          <div class="col-md-4">
+          <div className="col-md-4">
             {/* <!-- BLOG  --> */}
             <BlogsItem
               image={image500x400}
@@ -48,7 +48,7 @@ const Blogs = () => {
 
             {/* <!-- END BLOG --> */}
           </div>
-          <div class="col-md-4">
+          <div className="col-md-4">
             {/* <!-- BLOG  --> */}
             <BlogsItem
               image={image500x400}
